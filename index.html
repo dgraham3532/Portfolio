@@ -1,0 +1,650 @@
+<!DOCTYPE html>
+<html>
+      <head>
+        <meta charset="UTF-8">
+        <meta name="referrer" content="origin">
+        <!-- force Internet Explorer (IE) to use the latest version of the rendering engin -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <!-- his gives the browser instructions on how to control the page's dimensions and scaling -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title> Donovan Graham Portfolio</title>
+
+
+
+
+        <!-- defines the web page icon or favicon which visually represents the website -->
+        <link rel="shortcut icon" href="./pics/icon.png" type="image/x-icon">
+        
+        <link rel="stylesheet" href="path/to/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+        <!-- might take it out  -->
+
+
+        <link rel="stylesheet" href="./css/style.css">
+
+
+        <!--google font link-->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+        <script src="./js/script.js" defer ></script>
+        <script src="https://kit.fontawesome.com/582cc60b88.js" crossorigin="anonymous"></script>
+      </head>
+      <body>
+        
+        <main>
+          <!-- side bare -->
+          <aside class="sidebar" info-sidebar>
+            <div class="sidebare-info">
+              <figure class="avatar-box">
+                <img src="./pics/avatar3.png" alt="Fatemah Bahzad" width="80"> 
+                <div class="align-right">
+                  <button class="info_more-btn" info-btn>
+                    <span>Show Contacts</span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </button>
+                  </div>
+              </figure>
+
+              <div class="info-content">
+                
+                
+                
+                <h1 class="name" title="Fatemah Bahzad"> Donovan Graham </h1>
+                
+                <p class="title">Electrical Engineer</p>
+                <a href="https://drive.google.com/file/d/14w3Av1daymat8FHfea0riHGJ8wgpoEsJ/view?usp=sharing" download="Fatemah-bahzad-resume.pdf">
+                  <p class="download">Download Resume</p>
+              </a>
+                <div class="separator"></div>
+              </div>
+              <!-- <button class="info_more-btn" info-btn>
+                <span>Show Contacts</span>
+                <i class="fa-solid fa-chevron-down"></i>
+              </button> -->
+
+              
+            </div>
+            <div class="sidebar-info_more">
+
+
+              <!-- ul used for a list with <li> the list elements -->
+              <ul class="contact-list">
+                <li class="contact-item"> 
+                <div class="icon-box">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-title">Email</p>
+                  <a href="mailto: zahraabahzad3@gmail.com" class="contact-link">dgraham3532@gmail.com</a>
+                </div>
+                </li>
+                <li class="contact-item">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-phone"></i>
+                  </div>
+                  <div class="contact-info">
+                    <p class="contact-title"> Phone Number</p>
+                    <a href="tel:+15712750202" class="contact-link">+1(703)498-0811</a>
+                  </div>
+                </li>
+                <li class="contact-item">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-location-arrow"></i>
+                  </div>
+                  <div class="contact-info">
+                    <p class="contact-title">Location</p>
+                    <address>Fairfax, Virginia, USA </address>
+                  </div>
+                </li>
+              </ul>
+              <div class="separator"></div>
+              <ul class="social-list">
+                <li class="social-item">
+                  <a href="https://www.linkedin.com/in/donovan-a-graham/" class="social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </li>
+                <li class="social-item">
+                  <a href="https://github.com/dgraham3532" class="social-link">
+                    <i class="fa-brands fa-github"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </aside>
+
+          <!-- main page -->
+          <div class="main-content">
+            <!-- nav bar -->
+            <nav class="navbar">
+              <ul class="navbar-list">
+                <li class="navbar-item">
+                  <button class="navbar-link  active" data-nav-link>About</button>
+                </li>
+                <li class="navbar-item">
+                  <button class="navbar-link" data-nav-link>Resume</button>
+                </li>
+                <li class="navbar-item">
+                  <button class="navbar-link" data-nav-link>Portfolio</button>
+                </li>
+                <!-- <li class="navbar-item">
+                  <button class="navbar-link" data-nav-link>Updates</button>
+                </li> -->
+                <!-- add it later -->
+                <!-- removed the contact tab -->
+                <!-- <li class="navbar-item"> -->
+                  <!-- <button class="navbar-link" data-nav-link>Contact</button>
+                </li> -->
+              </ul>
+            </nav>
+
+
+            <!-- about page -->
+            <article class="about active" data-page="about">
+              <header>
+                <h2 class="h2 artical-title"> About me</h2>
+              </header>
+              <section class="about-text">
+                <div class="slideshow-container">
+
+              <div class="mySlides fade">
+                    <div class="numbertext">1 / 4</div>
+                    <div class="text">
+                    <p class="about-me-title">Aspiring Electrical and Software Engineer</p>
+                    <p class="about-me-item">
+                      I am an ambitious Electrical Engineering student currently pursuing my degree at 
+                      George Mason University. My passion for exploring the fascinating world of electrical
+                      engineering has been the driving force behind my educational journey. I have had the 
+                      opportunity to delve deep into various aspects of the field, gaining valuable knowledge 
+                      and hands-on experience. Beyond my academic pursuits, I am deeply passionate about applying
+                      my skills and knowledge to real-world applications. I thrive in collaborative environments that
+                      ncourage creativity and innovation, always seeking opportunities to contribute to cutting-edge 
+                      projects and initiatives.
+
+                  </p>
+              </div>
+              </div>
+              <!-- <div class="mySlides fade">
+                <div class="numbertext">2 / 3</div>
+                <div class="text">
+                <p class="about-me-title">Educational Journey:</p>
+                <p class="about-me-item">
+                  My academic journey at George Mason University has been a transformative experience.
+                   I've had the privilege of diving deep into the fascinating world of computer engineering,
+                    where I've gained a solid foundation in both hardware and software aspects of computing. 
+                    From digital circuits and microprocessors to algorithms and data structures, I've relished 
+                    every opportunity to expand my knowledge and apply it to real-world problems.
+                </p>
+                </div>
+              </div> -->
+              <div class="mySlides fade">
+                <div class="numbertext">2 / 4</div>
+                <div class="text">
+                <p class="about-me-title">Passion for Coding:</p>
+                <p class="about-me-item">
+                  Coding isn't just a skill for me; it's a way of expressing creativity and bringing ideas to
+                   life. I've spent countless hours immersing myself in various programming languages, from
+                    C++ and Python to Java and JavaScript. Each line of code I write is a step towards 
+                    creating solutions that make a difference. The excitement of seeing my code come to
+                     life and function as intended is what keeps me motivated and hungry for more challenges.
+                </p>
+                </div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">3 / 4</div>
+                <div class="text">
+                <p class="about-me-title">Web Development Journey:</p>
+                <p class="about-me-item">
+                  One of my current endeavors is delving into the realm of web development. The digital landscape 
+                  is continuously evolving, and the web is at the heart of this evolution. I'm actively learning 
+                  and honing my skills in HTML, CSS, JavaScript, and related technologies to craft engaging and user-centric
+                   web experiences. I believe that the fusion of my engineering background and web development skills will enable
+                    me to build innovative and efficient solutions that seamlessly integrate technology into our daily lives. 
+                </p>
+                </div>
+              </div>
+              <div class="mySlides fade">
+                <div class="numbertext">4 / 4</div>
+                    <div class="text">
+                <p class="about-me-title" >Career Aspirations:</p>
+                <p class="about-me-item">
+                  As I stand at the threshold of my career, I'm eagerly anticipating the opportunity to contribute my 
+                  skills and knowledge to the tech industry. I'm on the lookout for an environment that fosters growth, 
+                  encourages innovation, and challenges me to push my boundaries. Whether it's developing cutting-edge software, 
+                  optimizing hardware systems, or architecting user-friendly websites, I'm ready to take on challenges that inspire
+                  me and add value to the world.
+                </p>
+                </div>
+              </div>
+              <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+              <a class="next" onclick="plusSlides(1)">&#10095;</a>
+              </div>
+              <br>
+
+            <!-- The dots/circles -->
+            <div style="text-align:center">
+            <span class="dot" onclick="currentSlide(1)"></span>
+            <span class="dot" onclick="currentSlide(2)"></span>
+            <span class="dot" onclick="currentSlide(3)"></span>
+            <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+              </section>
+            </article>
+
+            <!-- resume -->
+            <article class="resume" data-page="resume">
+              <header>
+                <h2 class="h2 artical-title">Resume</h2>
+              </header>
+              <section class="timeline">
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-book"></i>
+                  </div>
+                  <h3 class="h3">Education</h3>
+                </div>
+
+                <ul class="timeline-list">
+                  <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">George Mason University: Electrical Engineering </h4>
+                    <span>2019-2024</span>
+                  </li>
+                </ul>
+              </section>
+              <!-- <section class="timeline">
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-desktop"></i>
+                  </div>
+                  <h3 class="h3">Professional Certificate</h3>
+                </div>
+                <ul class="timeline-list">
+                <li class="timeline-item">
+                  <h4 class="h4 timeline-item-title">IBM Back-End Development Professional Certificate </h4>
+                  <span>July/2023-Present</span>
+                </li>
+              </ul>
+
+              </section> -->
+
+              <section class="timeline">
+                <div class="title-wrapper">
+                  <div class="icon-box">
+                    <i class="fa-solid fa-briefcase"></i>
+                  </div>
+                  <h3 class="h3">Experience</h3>
+                </div>
+                <ul class="timeline-list">
+                  <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">AI Assisted Ultrasonic Imaging System: Senior Design Project - George Mason University</h4>
+                    <span>January 2024 – December 2024</span>
+                    <ul class="timeline-exp">
+                      <li class="exp-item">
+                        Capstone course in the engineering program where students apply their cumulative knowledge to solve a real- world 
+                        problem. The senior design project focuses on developing a deep learning model for medical imaging, enhancing accuracy 
+                        and speed in reconstructing velocity models for subsurface exploration.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Intern | Part time Engineer – ST Engineering iDirect Government, Herndon, VA </h4>
+                    <span>June 2021 – April 2024</span>
+                    <ul class="timeline-exp">
+                      <li class="exp-item">
+                        iDirect Government: Partner of the U.S. government, delivering secure satellite-based communication platforms 
+                        for specialized applications of multiple federal, state, and local government agencies, including the Department 
+                        of Defense, both domestically and abroad.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Test Engineering Intern: Hardware and Network Testing Development</h4>
+                    <span>June 2021 - October 2021</span>
+                    <ul class="timeline-exp">
+                      <li class="exp-item">
+                        Test both remote and defense receive line card (DLC-R) Interference Mitigation cases for 
+                        retrieval of transfer power and carrier data over noise value.
+                      </li>
+                      <li class="exp-item">
+                        Testing the power accuracy within the network for achieving higher resolution in transmitted data quality.
+                      </li>
+                      <li class="exp-item">
+                        Validates all states and status indicators of LEDs on the satellite 1U Satcom Modem and 980 Airborne Satellite Modem 
+                        front panels for impacts to power fluctuation, and data traffic.
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Software Engineering Intern – Systems Software Development</h4>
+                    <span>October 2021 – May 2023</span>
+                    <ul class="timeline-exp">
+                      <li class="exp-item">
+                        Python script to monitor the available temperature sensors from within the 450mp board satellite modem during hardware verification testing.
+                      </li>
+                      <li class="exp-item">
+                      Python script to query remote inbound carrier over noise values on the protocol processor; gathering a port number used to pull the correct carrier over noise value to the user for further use.
+                    </li>
+                    <li class="exp-item">
+                    Developed a Python script that generates hexadecimal channel registers from the satellite modem, to deconstruct into binary values for memory mapping implementation within a memory map to stream register detailing chart.
+                  </li>  
+                  </ul>
+                  </li>
+
+                  <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Hardware Engineering Intern – Hardware Board Prototype Development</h4>
+                    <span>May 2023 – September 2023</span>
+                    <ul class="timeline-exp">
+                      <li class="exp-item">
+                        Tested I2C and SPI communication to verify signal integrity to specify transceiver parameters.
+                      </li>
+                      <li class="exp-item">
+                        Design Verification Testing (DVT) work for the fan speed controller, working with both fan
+                         PWM and RPM modes to improve fan speed controller performance utilizing thermal testing to observe performance under environmental strain.
+                      </li>
+                      <li class="exp-item">
+                        Hands on experience soldering down to 0402 package size, cabling, thermal chamber testing, circuit stability testing over a wide temperature range (-40C to 70C), hot spot analysis via thermal imaging, debugging which required PCB
+                         rework, as well as working with testing equipment such as oscilloscopes, power supplies,
+                         and testing comms with UART console cables (USB to RS232 transceiver).
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="timeline-item">
+                    <h4 class="h4 timeline-item-title">Integration Engineer Part Time – FPGA Script Development</h4>
+                    <span>September 2023 – April 2024</span>
+                    <ul class="timeline-exp">
+                      <li class="exp-item">
+                        Developed a python application for stress testing AXI interfaces in an FPGA, focusing on 
+                        reading/writing known values into debug registers across multiple register banks. Implemented
+                         alternating hex values to stress-test the interfaces and detect random bit errors. 
+                         Utilized peek and poke software for register access and reference header files for different register banks. Contributed to the 
+                        optimization of AXI interface performance and ensuring robustness under load conditions.
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </section>
+              <section class="skill">
+                <h3 class="h3 skills-title">My skills</h3>
+                <div class="container">
+                  <div class="item">
+                    <div class="item-content">
+                      <h4 class="h4 item-text">Back-End</h4>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-brands fa-python"></i>
+                        </div>
+                        <h5 class="icon-title">Python</h5>
+                        <!-- <h5 class="icon-title">2 Years</h5> -->
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-brands fa-java"></i>
+                        </div>
+                        <h5 class="icon-title">Java</h5>
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-solid fa-c"></i>
+                        </div>
+                        <h5 class="icon-title">C#</h5>
+                      </div>
+
+
+                    </div>
+                  </div>
+                </div>
+
+                <div class="container">
+                  <div class="item">
+                    <div class="item-content">
+                    <h4 class="h4 item-text">Front-End </h4>
+                    <div class="item-inner">
+                      <div class="item-icon">
+                        <i class="fa-brands fa-html5"> </i>
+                        </div>
+                        <h5 class="icon-title"> HTML5</h5>
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-brands fa-css3-alt"></i>
+                          </div>
+                          <h5 class="icon-title">CSS</h5>
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-icon">
+                            <i class="fa-brands fa-square-js"></i>
+                            </div>
+                            <h5 class="icon-title">JavaScript</h5>
+                          </div>
+                          <!-- <div class="item-inner">
+                            <div class="item-icon">
+                              <i class="fa-brands fa-react"></i>
+                              </div>
+                              <h5 class="icon-title">React</h5>
+                            </div>
+
+                            <div class="item-inner">
+                              <div class="item-icon">
+                                <i class="fa-brands fa-node"></i>
+                                </div>
+                                <h5 class="icon-title">Node</h5>
+                              </div>
+                          <div class="item-inner">
+                            <div class="item-icon">
+                              <i class="fa-brands fa-php"></i>
+                              </div>
+                              <h5 class="icon-title">PHP</h5>
+                            </div> -->
+                    </div>
+                  </div>
+                  </div>
+                <div clas="container">
+                  <div class="item">
+                    <div class="item-content">
+                      <h4 class="h4 item-text">Software Programming</h4>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-solid fa-v"></i>
+                        </div>
+                        <h5 class="icon-title">VHDL</h5>
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-brands fa-linux"></i>
+                        </div>
+                        <h5 class="icon-title">linux</h5>
+                      </div>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-solid fa-globe"></i>
+                        </div>
+                        <h5 class="icon-title">Networking Protocols</h5>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                  <div class="container">
+                    <div class="item">
+                      <div class="item-content">
+                        <h4 class="h4 item-text">Hardware</h4>
+                        <div class="item-inner">
+                          <div class="item-icon">
+                            <i class="fa-solid fa-microchip"></i>
+                          </div>
+                          <h5 class="icon-title">Basys 3</h5>
+                        </div>
+                        <div class="item-inner">
+                          <div class="item-icon">
+                            <i class="fa-brands fa-raspberry-pi"></i>
+                          </div>
+                          <h5 class="icon-title"> Raspberry_Pi</h5>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="item">
+                    <div class="item-content">
+                      <h4 class="h4 item-text">Other</h4>
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-brands fa-github"></i>
+                        </div>
+                        <h5 class="icon-title">Github</h5>
+                      </div>
+                      
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-brands fa-git"></i>
+                        </div>
+                        <h5 class="icon-title">Git</h5>
+                      </div>
+                      
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-solid fa-e"></i>
+                        </div>
+                        <h5 class="icon-title">Eclipse IDE</h5>
+                      </div>
+
+                      <div class="item-inner">
+                        <div class="item-icon">
+                          <i class="fa-solid fa-v"></i>
+                        </div>
+                        <h5 class="icon-title">VScode IDE</h5>
+                      </div>
+
+
+
+                    </div>
+                  </div>
+                 
+              </section>
+            </article>
+          
+            <article class="portfolio" data-page="portfolio">
+              <header>
+                <h2 class="h2 artical-title">Portfolio</h2>
+
+              </header>
+              <section claass="projects">
+                <ul class="filter-list">
+                  <li class="filter-item">
+                    <button class="active" data-filter-btn>All</button>
+                  </li>
+                  <li class="filter-item">
+                    <button data-filter-btn> Personal Projects</button>
+                  </li>
+                  <!-- <li class="filter-item">
+                    <button data-filter-btn> Educational Projects </button>
+                  </li> -->
+                  <li class="filter-item">
+                    <button data-filter-btn> In Progress </button>
+                  </li>
+                </ul>
+                <div class="filter-select-box">
+                  <button class="filter-select" data-select>
+                    <div class="select-value" data-selecct-value>Select category</div>
+
+                    <div class="select-icon">
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </div>
+                  </button>
+
+                  <ul class="select-list">
+
+                    <li class="select-item">
+                      <button data-select-item>All</button>
+                    </li>
+      
+                    <li class="select-item">
+                      <button data-select-item>Personal Projects</button>
+                    </li>
+      
+                    <!-- <li class="select-item">
+                      <button data-select-item>Educational Projects</button>
+                    </li>
+       -->
+                    <li class="select-item">
+                      <button data-select-item>In Progress </button>
+                    </li>
+                  </ul>
+                </div>
+                <ul class="project-list">
+                  <li class="project-item active" data-filter-item data-category="in progress">
+                    <a href="https://github.com/dgraham3532/Project-Baymax">
+                      <figure class="project-img">
+                        <div class="project-item-icon-box">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <img src="./projects/bymax.png" alt="beginner" loading="lazy">
+                      </figure>
+                      <h3 class="project-title">AI Robotics Project "Bymax"</h3>
+                      <p class="project-category">In Progress</p>
+                    </a>
+                  </li>
+                  <!-- <li class="project-item active" data-filter-item data-category="educational projects">
+                    <a href="https://github.com/Fatemah-Bahzad/Space_object_tracker/tree/main">
+                      <figure class="project-img">
+                        <div class="project-item-icon-box">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <img src="./projects/project2.png" alt="beginner" loading="lazy">
+                      </figure>
+                      <h3 class="project-title">Celestial Bodies Tracker Using Python</h3>
+                      <p class="project-category">Educational Projects</p>
+                    </a>
+                  </li> -->
+                  <li class="project-item active" data-filter-item data-category="personal projects">
+                    <a href="https://github.com/dgraham3532/Voice-Activated-Light-Switch">
+                      <figure class="project-img">
+                        <div class="project-item-icon-box">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <img src="./projects/light.jpg" alt="beginner" loading="lazy">
+                      </figure>
+                      <h3 class="project-title">Voice Activated Light Switch</h3>
+                      <p class="project-category">Personal Projects</p>
+                    </a>
+                  </li>
+
+    
+                  <li class="project-item active" data-filter-item data-category="personal projects">
+                    <a href="https://dgraham3532.github.io/Calculator-using-Javascript/">
+                      <figure class="project-img">
+                        <div class="project-item-icon-box">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <img src="./projects/calc.png" alt="beginner" loading="lazy">
+                      </figure>
+                      <h3 class="project-title">Calculator using Javascript</h3>
+                      <p class="project-category">Personal Projects</p>
+                    </a>
+                  </li>
+
+                  <!-- <li class="project-item active" data-filter-item data-category="in progress">
+                    <a href="https://fatemah-bahzad.github.io/to-do1/">
+                      <figure class="project-img">
+                        <div class="project-item-icon-box">
+                          <i class="fa-regular fa-eye"></i>
+                        </div>
+                        <img src="./projects/planner.png" alt="beginner" loading="lazy">
+                      </figure>
+                      <h3 class="project-title">Personal Planner Using React</h3>
+                      <p class="project-category">In Progress</p>
+                    </a>
+                  </li> -->
+
+
+                </ul>
+              </section>
+            </article>
+
+          </div>
+        </main>
+        
+      </body>
+
+</html>
+
